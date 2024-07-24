@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "cursive";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.circle{
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    position:absolute;
+    left: 28%;
+    top: 38%;
+    background-color: rgb(202, 235, 255);
+    z-index:2;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+     /* background-color: aqua;  */
+    background-image:url(1000_F_768295161_5P5k7ZAQESUp1pzVNd8I1sgB6gfChbWA.jpg);
+    background-size: cover;
+    background-position:flex-end;
+    display: flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+}
+.container{
+    height: 100%;
+    width:30%;
+     background-color:white; 
+    padding: 2vw 3vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    align-items: center;   
+}
+.container p{
+    text-align: center;
+    font-size: .9vw;
+    margin:.6vw 0;
+}
+.logo{
+    width: 100%;
+    height: 13%;
+     /* background-color: blueviolet;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.logo h2{
+    font-family: 'Courier';
+    color: #00aaff;
+    line-height:.8;
+    z-index:2;
+    letter-spacing:2px;
+    font-weight: 900; 
+}
+form{
+    height: fit-content;
+    width: 100%;
+     /* background-color: rgb(29, 176, 176);  */
+    padding: 1vw 2vw;
+}
+.container h1{
+    margin-bottom: 2vw;
+}
+.container h4 span{
+    color: #00aaff;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    /* background-color: crimson; */
+    margin: .5vw 0;
+    padding: 1vw 0;
+}
+form div input{
+    padding: .8vw;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.1vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+form div label{
+    font-size: 1vw;
+    margin: .3vw 0;
+}
